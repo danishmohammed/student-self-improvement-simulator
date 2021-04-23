@@ -1,1 +1,1 @@
-# StudentHabitHelper
+# student-habit-helper
