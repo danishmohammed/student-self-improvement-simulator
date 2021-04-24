@@ -254,84 +254,199 @@ def lunch():
     time.sleep(4)    
     print("I talk to them about the breakout room situation I was in today, as well as the situation with my friend.")
 
-def test(): 
+def test():
+  time.sleep(4) 
   print("Hopefully you got to enjoy a nice meal at some point, who doesn't love a good lunch? Today, you have a test for all of third period and you just re-loaded the screen to see the test posted in your Google Classroom. How do you feel?")
-  test_reply = input("(1) ","(2) ", "(3) ", "(Enter 1, 2 or 3): ", sep = '\n')
+  test_reply = input("(1) Great! I studied a good amount these past days and I’m ready!!!", "(2) Yikes! Test day was quicker than I thought. Why do I always procrastinate on studying??!!?", "(3) Whatever, I don't even care about my marks.", sep = '\n')
   while test_reply != "1" and test_reply != "2" and test_reply != "3":
       test_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if test_reply == "1":
-    print("")
+    print("You take your test confidently")
     time.sleep(5)
-    print("")
+    print("You stumble across a few problems...")
     time.sleep(5)
-    print("")
+    print("But you are thankful that you did the extra work, because you relate the concepts to solve tricky problems.")
+    time.sleep(5)
+    print("You submit your test, feeling confident and proud of how it turned out.")
   elif test_reply == "2":
-    print("")
+    print("You quickly scramble your notes and try to intak eas mcuh as you can!")
     time.sleep(4)
-    print("")
+    print("But you can't seem to understand what you're reading. You need time to understand the concepts!")
     time.sleep(4)
-    print("")
+    print("Anxious, you open the test and are shocked by the questions.")
     time.sleep(4)
-    print("")
+    print("You start panicing! 'Ok, calm down,' you tell yourself.")
+    time.sleep(4)
+    print("Feeling horrible, you still manage to give the test your best shot.")
+    time.sleep(4)
+    print("You are very regretful and promise not to procrastinate again, even if you do good on this test. The mental troubles you went through were painful and unneccessary.")
   elif test_reply == "3":
-    print("")
+    print("You casually open the test, not caring about it whatsoever")
     time.sleep(4)
-    print("")
+    print("'Who cares? It's just online school,' you tell yourself'")
     time.sleep(4)    
-    print("")
+    print("You carelessly take the test, but something deep down tells you that you have no future, and that you don't deserve such good education...")
 
 def email():
-  print("")
-  test_reply = input("(1) ","(2) ", "(3) ", "(Enter 1, 2 or 3): ", sep = '\n')
-  while test_reply != "1" and test_reply != "2" and test_reply != "3":
-      test_reply = input("Invalid input. Please enter 1, 2, or 3: ")
-  if test_reply == "1":
-    print("")
+  time.sleep(4)
+  print("Phew! You may now take a 10-minute breather, your test is over! As you slump back in your chair, you get an email from a skeptical and seemingly dangerous sender. That's strange, what do you want to do with it?")
+  email_reply = input("(1) No way I am opening that! I will drag that email to the trash right away!","(2) Oohhh, Danger is my middle name! I will open that email, I wonder what will happen!", "(3) Tell an adult, and ask for their opinion on what to do. That's way too strange to deal with myself!", "(Enter 1, 2 or 3): ", sep = '\n')
+  while email_reply != "1" and email_reply != "2" and email_reply != "3":
+      email_reply = input("Invalid input. Please enter 1, 2, or 3: ")
+  if email_reply == "1":
+    print("You drag the email to the trash.")
     time.sleep(5)
-    print("")
-    time.sleep(5)
-    print("")
-  elif test_reply == "2":
-    print("")
+    print("You've seen too many people have their credentials exposed because of emails like this. Delete.")
+  elif email_reply == "2":
+    print("You open the email.")
     time.sleep(4)
-    print("")
+    print("There is an attachment at the bottom of the screen. You click it. 'What's gonna happen, are they gonna punch me?' you tell yourself.")
     time.sleep(4)
-    print("")
+    print("Suddenly, your screen freezes. You start to panic. You try to close the tab but nothing works. Finally, you force shut off your laptop.")
     time.sleep(4)
-    print("")
-  elif test_reply == "3":
-    print("")
+    print("You promise to never do that again.")
+  elif email_reply == "3":
+    print("You show it to a trusted adult.")
     time.sleep(4)
-    print("")
+    print("They tell you to dispose of it right away.")
     time.sleep(4)    
-    print("")
+    print("You drag it to the trash, never to see it again.")
 
 def after_school():
-  test_reply = input("(1) ","(2) ", "(3) ", "(Enter 1, 2 or 3): ", sep = '\n')
-  while test_reply != "1" and test_reply != "2" and test_reply != "3":
-      test_reply = input("Invalid input. Please enter 1, 2, or 3: ")
-  if test_reply == "1":
-    print("")
+  time.sleep(4)
+  print("At last, you attend your final class, math, and upon your last equation, School is finally over! Give yourself a pat on the back for another day of school complete! What now?")
+  after_school_reply = input("(1) Take a quick break and then attend a school club meeting.","(2) Partake in one of my hobbies! ", "(3) That was a long day! I might as well Binge Youtube/Netflix. I deserve it, I have like 6 hours to do my homework anyways!", "(Enter 1, 2 or 3): ", sep = '\n')
+  while after_school_reply != "1" and after_school_reply != "2" and after_school_reply != "3":
+      after_school_reply = input("Invalid input. Please enter 1, 2, or 3: ")
+  if after_school_reply == "1":
+    print("You attend your school club")
     time.sleep(5)
-    print("")
+    print("Because of your leadership, you happen to be the president of your club!")
     time.sleep(5)
-    print("")
-  elif test_reply == "2":
-    print("")
+    print("You chat with your team and work on your next presentation")
     time.sleep(4)
-    print("")
+    print("You feel good talking to others.")
+  elif after_school_reply == "2":
+    print("You do one of your hobbies!")
     time.sleep(4)
-    print("")
+    print("You have a great time.")
     time.sleep(4)
-    print("")
-  elif test_reply == "3":
-    print("")
+    print("You relax your mind, and also get some time off the screen!")
     time.sleep(4)
-    print("")
+    print("Now, you feel nice and refreshed!")
+  elif after_school_reply == "3":
+    print("You watch more netflix and youtube")
+    time.sleep(4)
+    print("Although the binge was good, you get distracted and end up watching 5 too many episodes.")
     time.sleep(4)    
-    print("")
+    print("You get up, and try to deal with the headache you just got.")
 
-def
+def hangout():
+  print("You step outside, and you see your friends notice and walk-up to you, about to ask if you are down to hang-out. Are you down or nah?")
+  time.sleep(4)
+  hangout_reply = input("(1) I would politely reject. Stay home, stay safe! ","(2) Alright I’m joining! Let’s head to the local burger joint!", "(3) I would keep walking and ignore them, I don’t care enough to socialize with others.", "(Enter 1, 2 or 3): ", sep = '\n')
+  while hangout_reply != "1" and hangout_reply != "2" and hangout_reply != "3":
+      hangout_reply = input("Invalid input. Please enter 1, 2, or 3: ")
+  if hangout_reply == "1":
+    print("You greet them but politely refuse.")
+    time.sleep(5)
+    print("Not just your health, but the health of others is more important than hanging out.")
+    time.sleep(5)
+    print("You wonder how many lives you saved by socially isolating for the past year...")
+  elif hangout_reply == "2":
+    print("You go to join your friends.")
+    time.sleep(4)
+    print("However, when you reach the intersection, you see a bunch of cop cars!")
+    time.sleep(4)
+    print("You run away as fast as you can!")
+    time.sleep(4)
+    print("You promise to stay at home and not to break the law again.")
+  elif hangout_reply == "3":
+    print("You ignore your friends.")
+    time.sleep(4)
+    print("You can see them giving you a puzzled look, but you honestly can't be bothered.")
+    time.sleep(4)    
+    print("You enter inside, not sure of why you feel upset.")
+
+def covid():
+  time.sleep(4)
+  print("You decide to check your social media for a bit before doing some homework. As you scroll, you notice people from your school posting the most bizarre cures and preventatives for COVID-19, what would you do?")
+  covid_reply = input("(1) Join in! It’s a harmless joke anyways, did you know balancing cockroaches on your head and eating chips at the same time prevents you from getting COVID-19? My turn to play some jokes!","(2) Laugh, and keep scrolling.", "(3) Perhaps text them about it or make an awareness post on Instagram Stories, this really isn’t something to joke about.", "(Enter 1, 2 or 3): ", sep = '\n')
+  while covid_reply != "1" and covid_reply != "2" and covid_reply != "3":
+      covid_reply = input("Invalid input. Please enter 1, 2, or 3: ")
+  if covid_reply == "1":
+    print("You join in on the action.")
+    time.sleep(5)
+    print("People start believing you at first, and it's really funny!")
+    time.sleep(5)
+    print("But after a while, you start to get mean messages from people that are even close to you.")
+    time.sleep(5)
+    print("You drop it, delete any posts you made, and apologize to anyone who saw your story. But the damage was already done...")
+  elif covid_reply == "2":
+    print("You laugh, and keep scrolling")
+    time.sleep(4)
+    print("You wonder what will happen to the joke.")
+    time.sleep(4)
+    print("But deep inside, you feel like you are doing something wrong...")
+  elif covid_reply == "3":
+    print("You message your friends and tell them it's not okay.")
+    time.sleep(4)
+    print("They are shocked to hear a response from you, but your words are firm.")
+    time.sleep(4)    
+    print("They eventually stop, and apologize for spreading misinformation. You feel proud of yourself.")
+
+def dinner():
+  time.sleep(4)
+  print("You have now completed all your school-based work for the day. It’s time to get some dinner! Where are you eating?") 
+  time.sleep(4)
+  dinner_reply = input("(1) With my family. We have the best discussions at the dinner table!","(2) In my room alone, who needs family when you got yourself?", "(3) Dinner? I am still doing my homework and I got no time to eat! Perhaps in an hour or so, I can have a snack.", "(Enter 1, 2 or 3): ", sep = '\n')
+  while dinner_reply != "1" and dinner_reply != "2" and dinner_reply != "3":
+      dinner_reply = input("Invalid input. Please enter 1, 2, or 3: ")
+  if dinner_reply == "1":
+    print("You sit down to eat with your family.")
+    time.sleep(5)
+    print("You have a great time.")
+    time.sleep(5)
+    print("You tell them all about your day, and the meal was great!")
+  elif dinner_reply == "2":
+    print("You eat dinner alone.")
+    time.sleep(4)
+    print("For some reason, it feels like dinner is taking forever to finish")
+    time.sleep(4)
+    print("It also doesn't taste that good...")
+    time.sleep(4)
+    print("You shrug it off and finish up.")
+  elif dinner_reply == "3":
+    print("You continue your homework.")
+    time.sleep(4)
+    print("You finish just as its almost bedtime.")
+    time.sleep(4)    
+    print("You quickly stuff yourself with whatever leftovers you can find. You don't feel so good...")
+def sleep():
+  print("Its bedtime! Any last things you want to do once you're in bed ready to sleep?")
+  time.sleep(4)
+  sleep_reply = input("(1) Check my phone again and again, you never know how many texts you can get at night.","(2) Shout goodnight to my family, make a quick agenda of things to do tomorrow and fall asleep.", "(3) Set my morning alarm, take some deep breaths, and count the sheep leading me into my dream.", "(Enter 1, 2 or 3): ", sep = '\n')
+  while sleep_reply != "1" and sleep_reply != "2" and sleep_reply != "3":
+      sleep_reply = input("Invalid input. Please enter 1, 2, or 3: ")
+  if sleep_reply == "1":
+    print("You check your phone.")
+    time.sleep(5)
+    print("You answer a few texts, and it feels late by the time you are done")
+    time.sleep(5)
+    print("You try to sleep quickly, but you can't fall asleep. You remeber reading somewhere that blue light from cell phones at night can cause problems sleeping...")
+  elif sleep_reply == "2":
+    print("You say your bye-byes, and plan your day for tomorrow.")
+    time.sleep(4)
+    print("You want to be sure that you are prepared for tomorrow.")
+    time.sleep(4)
+    print("You fall asleep soon after.")
+  elif sleep_reply == "3":
+    print("You set your alarm, take deep breaths, and lay down")
+    time.sleep(4)
+    print("You refelct over your day today.")
+    time.sleep(4)    
+    print("You try to focus on how you can make tomorrow even better as you fall asleep with the counting sheep.")
+
 intro()
 
 new_day = console.input("\nWhen you are ready to play, click the rectangle on the right and type 'yes': ")
