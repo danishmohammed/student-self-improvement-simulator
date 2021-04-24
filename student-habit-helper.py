@@ -7,12 +7,17 @@ def intro():
     print("===========================|          Welcome to simulating a typical day in a high school students life!           |===========================")
     print("\t\t\t\t\t\t    ----------------------------------------------------------------------------------------")
     time.sleep(5)
-    print("- This program is meant to give you an insight on some of the important decisions you make, even as a student studying from home!")
+    print("- This game is meant to give you an insight on some of the important decisions you make, even as a student studying from home!")
     time.sleep(5)
-    print("- Habits are one of the most important aspects of human beings, but the pandemic has")
-    time.sleep(4)
+    print("- Habits are one of the most important aspects of human beings, but the pandemic has disrupted our routines and forced us to create new habits,   some we may not even realize!")
+    time.sleep(6)
+    print("- Quick disclaimer: this game is an overgeneralization, and there are obviously many more decisions and factors that go on in your day.") 
+    time.sleep(5)
+    print("  So don't take this TOO seriously, but try to learn a thing or two about yourself!")
+    time.sleep(5)
     print("- Try to answer honestly on the first try, you will get to simulate another day to try and improve your habits!")
-    time.sleep(4)
+    time.sleep(5)
+    
 
 def wake_up():
     pass
@@ -22,9 +27,9 @@ def wake_up():
 
 
 intro()
+new_day = input("When you are ready to play, type 'yes': ")
 
-new_day = "yes"
-while new_day == "yes" or new_day == "y":
+while new_day[0] == "y":
     
 
 
