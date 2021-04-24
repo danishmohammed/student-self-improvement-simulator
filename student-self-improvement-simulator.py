@@ -461,7 +461,7 @@ intro()
 
 new_day = console.input("\nWhen you are ready to play, click the rectangle on the right and type 'yes': ")
 while new_day[0] != "y":
-  print("Invalid response. Please type 'yes' to proceed to the game!")
+  new_day = input("Invalid response. Please type 'yes' to proceed to the game!")
 while new_day[0] == "y":
 
   wake_up()
