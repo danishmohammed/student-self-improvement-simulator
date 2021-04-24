@@ -9,19 +9,19 @@ def intro(): #the introduction to the game
   console.print("[red]\n\t\t--------------------------------------------------------------------------------[/red]")
   console.print("[red]================[/red][bold red]|[/bold red]                  [green]Welcome to a day in the life of a student![/green]                  [bold red]|[/bold red][red]===============[/red]")
   console.print("[red]\t\t--------------------------------------------------------------------------------[/red]")
-  time.sleep(1)
+  time.sleep(5)
   print("\n- This decision-based game is meant to give you an insight on some of the important decisions you make, even as a student studying from home!")
-  time.sleep(1)
+  time.sleep(5)
   console.print("- [yellow]Habits[/yellow] are one of the most important aspects of human beings...")
-  time.sleep(1)
+  time.sleep(5)
   console.print("  but the [cyan]COVID-19 pandemic[/cyan] has disrupted our routines and forced us to create new habits, some we may not even realize!")
-  time.sleep(1)
+  time.sleep(5)
   console.print("- [red]Quick disclaimer[/red]: this game is an overgeneralization, and there are obviously many more decisions and factors that occur in your day.") 
-  time.sleep(1)
+  time.sleep(5)
   print("  So don't take this TOO seriously, but try to learn a thing or two about yourself, and have some fun!")
-  time.sleep(1)
+  time.sleep(5)
   console.print("- Try to answer [green]honestly[/green] on the first try, and you will get to simulate another day to try and improve your habits!")
-  time.sleep(1)
+  
   
 
 def wake_up():
