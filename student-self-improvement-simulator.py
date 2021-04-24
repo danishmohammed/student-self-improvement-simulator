@@ -90,7 +90,8 @@ def wake_up():
 def breakfast():
   time.sleep(3)
   print("Suddenly, you feel a pang of hunger, you need to eat something. What's for breakfast?")
-  breakfast_reply = input("(1) Well I was craving french fries, so I might as well have fries and perhaps some ice cream while I'm at it. Some food is better than nothing!)", "(2) Anything I can get, a granola bar usually or nothing really, I never have time for breakfast!", "(3) Oatmeal, eggs, and toast! Or something else along the lines of that.", "(Enter 1, 2 or 3): ", sep='\n')
+  print("(1) Well I was craving french fries, so I might as well have fries and perhaps some ice cream while I'm at it. Some food is better than nothing!)", "(2) Anything I can get, a granola bar usually or nothing really, I never have time for breakfast!", "(3) Oatmeal, eggs, and toast! Or something else along the lines of that.", sep='\n')
+  breakfast_reply = input("1,2 or 3")
   while breakfast_reply != "1" and breakfast_reply != "2" and breakfast_reply != "3":
     breakfast_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   
@@ -128,7 +129,8 @@ def breakfast():
 def first_class():
   time.sleep(5)
   print("You are put into breakout rooms. Some time goes by and nobody is discussing anything. What do you do?")
-  first_class_reply = input("(1) Stay quiet. Nobody wants to talk anyways.", "(2) Hop on microphone and try to talk to my classmates!", "(3) Say hi to your classmates in the chat and see what comes out of it.", "(Enter 1, 2 or 3): ", sep='\n')
+  print("(1) Stay quiet. Nobody wants to talk anyways.", "(2) Hop on microphone and try to talk to my classmates!", "(3) Say hi to your classmates in the chat and see what comes out of it.", sep='\n')
+  first_class_reply = input("1,2, or 3")
   while first_class_reply != "1" and first_class_reply != "2" and first_class_reply != "3":
     first_class_reply = input("Invalid input. Please enter 1, 2, or 3: ")
 
@@ -193,7 +195,8 @@ def first_class():
 def second_class():
   time.sleep(4)
   print("That was a quiet first class... time for your next one! During class, you notice your friend sounding very withdrawn and tired when they open their mic to speak. What's up with that?")
-  second_class_reply = input("(1) I think they’re just tired, I'd ignore it.", "(2) Text in the chat if they are okay; hey, I am sure my classmates are just as confused as me and someone needs to speak up!", "(3) Text them privately and check up on how they are doing, perhaps they had a rough morning and just need some cheering up.", "(Enter 1, 2 or 3): ", sep='\n')
+  print("(1) I think they’re just tired, I'd ignore it.", "(2) Text in the chat if they are okay; hey, I am sure my classmates are just as confused as me and someone needs to speak up!", "(3) Text them privately and check up on how they are doing, perhaps they had a rough morning and just need some cheering up.", sep='\n')
+  second_class_reply = input("1,2, or 3")
   while second_class_reply != "1" and second_class_reply != "2" and second_class_reply != "3":
       second_class_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if second_class_reply == "1":
@@ -230,7 +233,8 @@ def second_class():
 def lunch():
   time.sleep(4)
   print("Anyways, you say bye to your teacher and it’s finally lunchtime! How would you plan out the next hour?")
-  lunch_reply = input("(1) Social media! This is my break time and I gotta see what others are up to. Plus, I really don’t want to walk all the way to the kitchen.", "(2) Continue my work. I got a bit distracted when my teacher gave us work time during first period, so I might as well do my work now!", "(3) Break time! I get up and move around for 20 minutes, and then enjoy lunch with my family for the rest of the time.","(Enter 1, 2 or 3): ", sep='\n')
+  print("(1) Social media! This is my break time and I gotta see what others are up to. Plus, I really don’t want to walk all the way to the kitchen.", "(2) Continue my work. I got a bit distracted when my teacher gave us work time during first period, so I might as well do my work now!", "(3) Break time! I get up and move around for 20 minutes, and then enjoy lunch with my family for the rest of the time.", sep='\n')
+  lunch_reply = input("1,2, or 3")
   while lunch_reply != "1" and lunch_reply != "2" and lunch_reply != "3":
       lunch_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if lunch_reply == "1":
@@ -257,7 +261,8 @@ def lunch():
 def test():
   time.sleep(4) 
   print("Hopefully you got to enjoy a nice meal at some point, who doesn't love a good lunch? Today, you have a test for all of third period and you just re-loaded the screen to see the test posted in your Google Classroom. How do you feel?")
-  test_reply = input("(1) Great! I studied a good amount these past days and I’m ready!!!", "(2) Yikes! Test day was quicker than I thought. Why do I always procrastinate on studying??!!?", "(3) Whatever, I don't even care about my marks.", sep = '\n')
+  print("(1) Great! I studied a good amount these past days and I’m ready!!!", "(2) Yikes! Test day was quicker than I thought. Why do I always procrastinate on studying??!!?", "(3) Whatever, I don't even care about my marks.", sep = '\n')
+  test_reply = input("1,2, or 3")
   while test_reply != "1" and test_reply != "2" and test_reply != "3":
       test_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if test_reply == "1":
@@ -290,7 +295,8 @@ def test():
 def email():
   time.sleep(4)
   print("Phew! You may now take a 10-minute breather, your test is over! As you slump back in your chair, you get an email from a skeptical and seemingly dangerous sender. That's strange, what do you want to do with it?")
-  email_reply = input("(1) No way I am opening that! I will drag that email to the trash right away!","(2) Oohhh, Danger is my middle name! I will open that email, I wonder what will happen!", "(3) Tell an adult, and ask for their opinion on what to do. That's way too strange to deal with myself!", "(Enter 1, 2 or 3): ", sep = '\n')
+  print("(1) No way I am opening that! I will drag that email to the trash right away!","(2) Oohhh, Danger is my middle name! I will open that email, I wonder what will happen!", "(3) Tell an adult, and ask for their opinion on what to do. That's way too strange to deal with myself!", sep = '\n')
+  email_reply = input("1,2, or 3")
   while email_reply != "1" and email_reply != "2" and email_reply != "3":
       email_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if email_reply == "1":
@@ -315,7 +321,8 @@ def email():
 def after_school():
   time.sleep(4)
   print("At last, you attend your final class, math, and upon your last equation, School is finally over! Give yourself a pat on the back for another day of school complete! What now?")
-  after_school_reply = input("(1) Take a quick break and then attend a school club meeting.","(2) Partake in one of my hobbies! ", "(3) That was a long day! I might as well Binge Youtube/Netflix. I deserve it, I have like 6 hours to do my homework anyways!", "(Enter 1, 2 or 3): ", sep = '\n')
+  print("(1) Take a quick break and then attend a school club meeting.","(2) Partake in one of my hobbies! ", "(3) That was a long day! I might as well Binge Youtube/Netflix. I deserve it, I have like 6 hours to do my homework anyways!", sep = '\n')
+  after_school_reply = input("1,2, or 3")
   while after_school_reply != "1" and after_school_reply != "2" and after_school_reply != "3":
       after_school_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if after_school_reply == "1":
@@ -344,7 +351,8 @@ def after_school():
 def hangout():
   print("You step outside, and you see your friends notice and walk-up to you, about to ask if you are down to hang-out. Are you down or nah?")
   time.sleep(4)
-  hangout_reply = input("(1) I would politely reject. Stay home, stay safe! ","(2) Alright I’m joining! Let’s head to the local burger joint!", "(3) I would keep walking and ignore them, I don’t care enough to socialize with others.", "(Enter 1, 2 or 3): ", sep = '\n')
+  print("(1) I would politely reject. Stay home, stay safe! ","(2) Alright I’m joining! Let’s head to the local burger joint!", "(3) I would keep walking and ignore them, I don’t care enough to socialize with others.", sep = '\n')
+  hangout_reply = input("1,2, or 3")
   while hangout_reply != "1" and hangout_reply != "2" and hangout_reply != "3":
       hangout_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if hangout_reply == "1":
@@ -371,7 +379,8 @@ def hangout():
 def covid():
   time.sleep(4)
   print("You decide to check your social media for a bit before doing some homework. As you scroll, you notice people from your school posting the most bizarre cures and preventatives for COVID-19, what would you do?")
-  covid_reply = input("(1) Join in! It’s a harmless joke anyways, did you know balancing cockroaches on your head and eating chips at the same time prevents you from getting COVID-19? My turn to play some jokes!","(2) Laugh, and keep scrolling.", "(3) Perhaps text them about it or make an awareness post on Instagram Stories, this really isn’t something to joke about.", "(Enter 1, 2 or 3): ", sep = '\n')
+  print("(1) Join in! It’s a harmless joke anyways, did you know balancing cockroaches on your head and eating chips at the same time prevents you from getting COVID-19? My turn to play some jokes!","(2) Laugh, and keep scrolling.", "(3) Perhaps text them about it or make an awareness post on Instagram Stories, this really isn’t something to joke about.", sep = '\n')
+  covid_reply = input("1,2, or 3")
   while covid_reply != "1" and covid_reply != "2" and covid_reply != "3":
       covid_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if covid_reply == "1":
@@ -399,7 +408,8 @@ def dinner():
   time.sleep(4)
   print("You have now completed all your school-based work for the day. It’s time to get some dinner! Where are you eating?") 
   time.sleep(4)
-  dinner_reply = input("(1) With my family. We have the best discussions at the dinner table!","(2) In my room alone, who needs family when you got yourself?", "(3) Dinner? I am still doing my homework and I got no time to eat! Perhaps in an hour or so, I can have a snack.", "(Enter 1, 2 or 3): ", sep = '\n')
+  print("(1) With my family. We have the best discussions at the dinner table!","(2) In my room alone, who needs family when you got yourself?", "(3) Dinner? I am still doing my homework and I got no time to eat! Perhaps in an hour or so, I can have a snack.", sep = '\n')
+  dinner_reply = input("1,2, or 3")
   while dinner_reply != "1" and dinner_reply != "2" and dinner_reply != "3":
       dinner_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if dinner_reply == "1":
@@ -423,9 +433,11 @@ def dinner():
     time.sleep(4)    
     print("You quickly stuff yourself with whatever leftovers you can find. You don't feel so good...")
 def sleep():
+  
   print("Its bedtime! Any last things you want to do once you're in bed ready to sleep?")
   time.sleep(4)
-  sleep_reply = input("(1) Check my phone again and again, you never know how many texts you can get at night.","(2) Shout goodnight to my family, make a quick agenda of things to do tomorrow and fall asleep.", "(3) Set my morning alarm, take some deep breaths, and count the sheep leading me into my dream.", "(Enter 1, 2 or 3): ", sep = '\n')
+  print("(1) Check my phone again and again, you never know how many texts you can get at night.","(2) Shout goodnight to my family, make a quick agenda of things to do tomorrow and fall asleep.", "(3) Set my morning alarm, take some deep breaths, and count the sheep leading me into my dream.", sep = '\n')
+  sleep_reply = input("1,2, or 3")
   while sleep_reply != "1" and sleep_reply != "2" and sleep_reply != "3":
       sleep_reply = input("Invalid input. Please enter 1, 2, or 3: ")
   if sleep_reply == "1":
@@ -452,21 +464,22 @@ intro()
 new_day = console.input("\nWhen you are ready to play, click the rectangle on the right and type 'yes': ")
 
 while new_day[0] == "y":
-  mood = 0
-  productivity = 0
-  energy = 0
-  fitness = 0
-  fulfillment = 0
 
   wake_up()
   breakfast()
-  print("\nFinal stats for today:")
-  print("Mood: " + str(mood) + "/10")
-  print("Energy: " + str(energy) + "/10")
-  print("Productivity: " + str(productivity) + "/10")
-  print("Fitness: " + str(fitness) + "/10")
-  new_day = console.input("\nWould you like to start a another day? ([green]yes[/green]/[red]no[/red]) ")
+  first_class()
+  second_class()
+  lunch()
+  test()
+  email()
+  after_school()
+  hangout()
+  covid()
+  dinner()
+  sleep()
 
+
+  new_day = console.input("\nWould you like to start a another day? ([green]yes[/green]/[red]no[/red]) ")
 
 print("Thank you for playing!") 
 print("Again, we would like to remind you that some of these factors that we mentioned can simply just be out of your control.")
