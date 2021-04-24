@@ -1,2 +1,2 @@
 language = "python3"
-run = "python student-habit-helper.py"
+run = "python student-decision-simulator.py"

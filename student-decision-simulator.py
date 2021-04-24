@@ -6,9 +6,9 @@ console = Console()
 prompts = {}
 def intro():
     time.sleep(1)
-    print("\n\t\t\t\t\t\t------------------------------------------------------------------------------------------")
-    print("=======================|           Welcome to simulating a day in the life of a high school student!            |========================")
-    print("\t\t\t\t\t\t------------------------------------------------------------------------------------------")
+    print("\n\t\t\t   ---------------------------------------------------------------------------------")
+    print("===============|             Welcome to a day in the life of a high school student!            |================")
+    print("\t\t\t   ---------------------------------------------------------------------------------")
     time.sleep(5)
     print("- This decision-based game is meant to give you an insight on some of the important decisions you make, even as a student studying from home!")
     time.sleep(5)
@@ -20,7 +20,7 @@ def intro():
     time.sleep(5)
     print("  So don't take this TOO seriously, but try to learn a thing or two about yourself, and have some fun!")
     time.sleep(5)
-    print("- Try to answer honestly on the first try, you will get to simulate another day to try and improve your habits!")
+    print("- Try to answer honestly on the first try, and you will get to simulate another day to try and improve your habits!")
     time.sleep(5)
     
 
