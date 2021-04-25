@@ -20,7 +20,7 @@ def intro(): #the introduction to the game
   time.sleep(5)
   print("  So don't take this TOO seriously, but try to learn a thing or two about yourself, and have some fun!")
   time.sleep(5)
-  console.print("- Try to answer [green]honestly[/green] on the first try, and you will get to simulate another day to try and improve your habits!")
+  console.print("- Try to answer [green]honestly[/green] on the first try, and you will get to simulate another day to try and improve your habits!\n")
   
 def wake_up():
 
